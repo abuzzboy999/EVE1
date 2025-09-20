@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Эвик и Максут — Наша История</title>
+  <style>
+    :root {
+      --bg:#0f1724;
+      --card:#0b1220;
+      --accent:#ff6b6b;
+      --text:#e6eef8;
+      --muted:#9fb0c8;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, "Segoe UI", Roboto, sans-serif;
+      background:linear-gradient(180deg,var(--bg),#071024);
+      color:var(--text)
+    }
+    .container{max-width:980px;margin:40px auto;padding:24px}
+    header{display:flex;align-items:center;gap:16px}
+    header img{width:84px;height:84px;object-fit:cover;border-radius:12px;border:2px solid rgba(255,255,255,0.06)}
+    h1{margin:0;font-size:28px}
+    p.lead{color:var(--muted);margin-top:6px}
+    .card{
+      background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.02));
+      padding:18px;
+      border-radius:12px;
+      margin-top:20px;
+      box-shadow:0 6px 30px rgba(2,6,23,0.6)
+    }
+    .story{line-height:1.6;font-size:16px}
+    .gallery{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:12px;
+      margin-top:16px
+    }
+    .gallery img{width:100%;height:260px;object-fit:cover;border-radius:10px}
+    .meta{display:flex;gap:10px;align-items:center;margin-top:12px;color:var(--muted)}
+    footer{text-align:center;color:var(--muted);margin-top:22px;font-size:13px}
+    .names{display:inline-block;background:rgba(255,255,255,0.04);padding:6px 10px;border-radius:999px;color:var(--text);font-weight:600;margin-left:8px}
+    @media (max-width:480px){
+      header img{width:64px;height:64px}
+      .gallery img{height:180px}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="364b9ff6-7870-42b3-8894-a25011857c43.jpg" alt="Эвик и Максут">
+      <div>
+        <h1>Эвик ❤ Максут <span class="names">Эвик & Максут</span></h1>
+        <p class="lead">Наша история — тёплая и неожиданная. Мы познакомились в больнице и с тех пор не расстаёмся.</p>
+      </div>
+    </header>
+
+    <div class="card">
+      <h2>Как мы встретились</h2>
+      <p class="story">Это была одна из тех встреч которые меняют все Мы с Эвик впервые встретились в больнице случайная улыбка разговор и вдруг оказалось что мы понимаем друг друга лучше чем ожидали Грусть и страх быстро сменились легкой надеждой  рядом появился человек который может поддержать С тех пор у нас появилось множество маленьких общих ритуалов: прогулки смешные селфи и беседы допоздна.</p>
+
+      <div class="meta">
+        <strong>Эё:</strong> <span style="margin-left:6px">Эвик — добрая, смелая и тёплая красивая.</span>
+      </div>
+      <div class="meta">
+        <strong>Я:</strong> <span style="margin-left:6px">Максут — просто красивый ему так сказала Эвик.</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Галерея моментов</h2>
+      <div class="gallery">
+        <img src="364b9ff6-7870-42b3-8894-a25011857c43.jpg" alt="Фото 1 — Мы вместе">
+        <img src="83971bda-6a7e-4e60-8476-8e19e66f2b58.jpg" alt="Фото 2 — Забавное селфи">
+        <img src="e60fa89c-af15-475e-b656-0047d118d3b7.jpg" alt="Фото 3 — Улыбкa на улице">
+      </div>
+      <p style="color:var(--muted);margin-top:10px">Каждое фото — это воспоминание Храним их вместе.</p>
+    </div>
+
+    <div class="card">
+      <h2>Наши планы</h2>
+      <p class="story">Мы любим простые вещи: гулять шутить и поддерживать друг друга впереди нас ждут приключения поездки и большой дом где всегда будет тепло Я ЕЕ ОЧЕНЬ СИЛЬНО ЛЮБЛЮ
+    </div>
+
+    <footer>
+      Сделано с любовью — Эвик и Максут · © 2025
+    </footer>
+  </div>
+</body>
+</html>
